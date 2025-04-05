@@ -47,10 +47,11 @@ export default function App() {
         </div>
         {imageURL && (
           <div className="mt-4">
-            <h2 className="text-lg font-semibold mb-2">Saved Signature:</h2>
+            <h2 className="text-lg font-semibold mb-2">Saved Signature: </h2>
             <img src={imageURL} alt="Saved signature" className="border border-gray-300 rounded-md" />
           </div>
         )}
+        //asd
         <p className="text-sm text-gray-600 mt-4">
           {isMobile
             ? "Use your finger or a stylus to sign on the canvas above."
